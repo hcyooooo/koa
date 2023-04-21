@@ -6,7 +6,6 @@ class UserService {
     // 插入数据
     // await表达式: promise对象的值
     const res = await User.create({ user_name, password })
-
     return res.dataValues
   }
 
